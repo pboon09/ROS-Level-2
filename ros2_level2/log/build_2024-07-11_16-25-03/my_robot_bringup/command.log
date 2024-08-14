@@ -1,0 +1,2 @@
+Invoking command in '/home/pboon09/ros2_level2/build/my_robot_bringup': /usr/bin/cmake /home/pboon09/ros2_level2/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/pboon09/ros2_level2/install/my_robot_bringup
+Invoked command in '/home/pboon09/ros2_level2/build/my_robot_bringup' returned '1': /usr/bin/cmake /home/pboon09/ros2_level2/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/pboon09/ros2_level2/install/my_robot_bringup
