@@ -1,0 +1,56 @@
+[0.021s] Invoking command in '/home/pboon09/ros2_level2/build/my_robot_bringup': /usr/bin/cmake /home/pboon09/ros2_level2/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/pboon09/ros2_level2/install/my_robot_bringup
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.165s] -- The CXX compiler identification is GNU 11.4.0
+[0.174s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.287s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.423s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.886s] Error parsing '/home/pboon09/ros2_level2/src/my_robot_bringup/package.xml':
+[0.937s] Traceback (most recent call last):
+[0.938s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.938s]     root = dom.parseString(data)
+[0.938s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.938s]     return expatbuilder.parseString(string)
+[0.938s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.938s]     return builder.parseString(string)
+[0.939s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.939s]     parser.Parse(string, True)
+[0.939s] xml.parsers.expat.ExpatError: mismatched tag: line 22, column 2
+[0.939s] 
+[0.939s] During handling of the above exception, another exception occurred:
+[0.939s] 
+[0.939s] Traceback (most recent call last):
+[0.939s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.939s]     main()
+[0.939s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.939s]     raise e
+[0.939s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.939s]     package = parse_package_string(
+[0.939s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.939s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.939s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/pboon09/ros2_level2/src/my_robot_bringup/package.xml':
+[0.939s] The manifest contains invalid XML:
+[0.939s] mismatched tag: line 22, column 2
+[0.955s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.955s]   execute_process(/usr/bin/python3
+[0.955s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.956s]   /home/pboon09/ros2_level2/src/my_robot_bringup/package.xml
+[0.956s]   /home/pboon09/ros2_level2/build/my_robot_bringup/ament_cmake_core/package.cmake)
+[0.956s]   returned error code 1
+[0.956s] Call Stack (most recent call first):
+[0.956s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.956s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.956s]   CMakeLists.txt:16 (ament_package)
+[0.956s] 
+[0.956s] [0m
+[0.957s] -- Configuring incomplete, errors occurred!
+[0.957s] See also "/home/pboon09/ros2_level2/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".
+[0.961s] Invoked command in '/home/pboon09/ros2_level2/build/my_robot_bringup' returned '1': /usr/bin/cmake /home/pboon09/ros2_level2/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/pboon09/ros2_level2/install/my_robot_bringup
